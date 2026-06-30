@@ -7,11 +7,8 @@
       "command": "cmd.exe",
       "args": [
         "/c",
-        "javac \"${file}\" && java \"${fileBasenameNoExtension}\" < input.txt > output.txt"
+        "cd \"${fileDirname}\" && javac \"${fileBasename}\" && java \"${fileBasenameNoExtension}\" < input.txt > output.txt"
       ],
-      "options": {
-        "cwd": "${fileDirname}"
-      },
       "group": {
         "kind": "build",
         "isDefault": true
