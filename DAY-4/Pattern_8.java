@@ -5,11 +5,11 @@ public class Pattern_8 {
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
         for (int i = 0; i < N; i++) {
-            // Star
+            // Space
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
-            // Space
+            // Star
             for(int k = 0 ; k < 2*N -(2*i + 1) ; k++ ){
             System.out.print("*");
         }
