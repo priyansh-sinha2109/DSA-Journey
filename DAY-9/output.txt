@@ -1,1 +1,1 @@
-Counted Digit : 2
+After Reverse : 2147483641
