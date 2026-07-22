@@ -1,1 +1,1 @@
-Therefore, it is an Armstrong number.
+[1, 2, 3, 4, 6, 9, 12, 18, 36]
